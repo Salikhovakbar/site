@@ -46,6 +46,12 @@
   transition: 0.7s;
 }
 
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .img_product {
   width: 120px;
   height: 120px;
@@ -103,4 +109,63 @@
   transition: 1s;
   border: 2px solid black;
   color: black;
+}
+
+@media only screen and (max-width: 768px) {
+  .offer_text {
+    font-size: 20px;
+    margin: 30px;
+  }
+  .offer_text::after {
+    top: 25px;
+  }
+  .main_container {
+    display: grid;
+    grid-template-columns: 600px;
+    grid-template-rows: repeat(4, 300px);
+  }
+  .box_good {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .name_product {
+    font-size: 22px;
+  }
+  .img_product {
+    width: 90px;
+    height: 90px;
+  }
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .benefits-of-product {
+    max-width: 350px;
+  }
+  .br {
+    display: none;
+  }
+  .price {
+    margin-top: 14px;
+    font-size: 22px;
+  }
+  .price_tag {
+    font-size: 18px;
+  }
+  .btn_info {
+    margin-top: 10px;
+  }
+  .more_info {
+    padding: 9px 20px;
+    font-size: 16px;
+  }
 }/*# sourceMappingURL=main.css.map */
