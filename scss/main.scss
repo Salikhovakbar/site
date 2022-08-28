@@ -51,3 +51,46 @@ $main-color-one: rgb(22, 169, 62);
     font-size: 27px;
     font-weight: 200;
 }
+.benefits-of-product{
+    max-width: 220px;
+    color: gray;
+    text-align: center;
+    margin-top: 40px;
+    line-height: 26px;
+}
+.price{
+    margin-top: 40px;
+color: gray;
+font-size: 26px;
+    max-width: 250px;
+}
+.price_tag{
+color: gray;
+font-size: 22px;
+}
+.number{
+    margin-top: 64px;
+    font-size: 26px;
+    font-weight: 700;
+    color: black;
+}
+.btn_info{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.more_info{
+    padding: 9px 24px;
+    font-weight: 300;
+    color: $main-color-one;
+    border: 1px solid $main-color-one;
+    font-size: 18px;
+    transition: 1s;
+    text-decoration: none;
+    cursor: pointer;
+    &:hover{
+transition: 1s;
+border: 2px solid black;
+color: black;
+    }
+}
