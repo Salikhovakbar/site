@@ -1,0 +1,23 @@
+@media only screen and (max-width: 400px){
+    .offer_text{
+        font-size: 16px;
+        font-weight: 500;
+        &::after{
+            top: 20px;
+            width: 70px;
+        }
+    }
+    .main_container{
+        display: grid;
+        grid-template-columns: 300px;
+        grid-template-rows: repeat(4,500px);
+    }
+    .box_good{
+        display: flex;
+        flex-direction: column;
+    }
+    .benefits-of-product{
+        margin: 0;
+        max-width: 240px;
+    }
+}
